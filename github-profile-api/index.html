@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Github Profile</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="title">Github profile API</h1>
+    <form class="form" onsubmit="fetchData(event)">
+      <label for="github-user" name="github-user"
+        >Enter a github username:</label
+      >
+      <input type="text" id="github-user" />
+      <button class="btn" type="submit">Submit</button>
+    </form>
+
+    <div id="display"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+}
+
+#title {
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem;
+}
+.form {
+  border: 2px solid lightgrey;
+  box-sizing: border-box;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  padding: 2rem;
+  width: 50%;
+}
+
+.form label {
+  padding-right: 20px;
+  font-size: 1.3em;
+}
+
+.form input {
+  margin-right: 1rem;
+  border: 1px solid rgb(206, 212, 218);
+  padding: 0.3em;
+}
+
+.btn {
+  background: rgb(0, 123, 255);
+  color: white;
+  padding: 0.3em;
+  width: 150px;
+}
+
+.btn:hover {
+  background: rgb(0, 110, 227);
+  cursor: pointer;
+}
+
+.profile-picture {
+  max-width: 400px;
+}
+
+.profile-picture img {
+  width: 400px;
+  border-radius: 0.5em;
+}
+
+.profile-info h4 {
+  width: 300px;
+  overflow: hidden;
+}
+
+.profile-picture:hover {
+  box-shadow: inset;
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+#display {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 2em auto;
+}

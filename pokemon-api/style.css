@@ -73,7 +73,6 @@ body {
 }
 
 .card img {
-  border: 3px solid silver;
   max-width: 22em;
   display: flex;
   margin: auto;

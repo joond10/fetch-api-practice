@@ -20,9 +20,9 @@ async function fetchRandomPokemon() {
           <div class="name"><h1>${upperCase(pokemon.name)}</h1></div>
           <div class="hp"><h1>${pokemon.base_experience} HP</h1></div>
         </div>
-        <img src="${
-          pokemon.sprites.other["official-artwork"].front_default
-        }" alt="${pokemon.name}" />
+        <img src="${pokemon.sprites.other.showdown.front_default}" alt="${
+        pokemon.name
+      }" />
       `;
 
       let hp = card.querySelector(".hp");
